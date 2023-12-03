@@ -1,0 +1,15 @@
+{
+  "name": "contao-tinyslider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cp -r node_modules/tiny-slider/dist/* public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
+  }
+}
